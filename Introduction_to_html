@@ -1,0 +1,23 @@
+HTML stands for HyperText Markup Language, 
+is the standard markup language used to
+create and design web pages.
+It forms the backbone of the World Wide Web,
+enabling the creation and formatting of documents that can be viewed on the internet by
+web browsers.
+HTML documents are comprised of a series of elements, 
+which are enclosed within 
+angle brackets, known as tags.
+These tags define the structure and content of the document.
+
+
+EXAMPLE
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<h2>Welcome To html </h2>
+<p>GOOD FOR DSA</p>
+</body>
+</html>
