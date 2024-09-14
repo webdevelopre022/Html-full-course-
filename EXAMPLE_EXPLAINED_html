@@ -1,0 +1,22 @@
+EXAMPLE EXPLAINED
+<!DOCTYPE html>: Defines the document as an HTML5 document.
+
+<html>: The root element of an HTML page.
+
+<head>: Contains meta information about the HTML page.
+
+<title>: Specifies the title of the HTML page displayed in the browser.
+
+<body>: Defines the document's body, containing all visible content.
+
+<h1>: Defines a large heading.
+
+<p>: Defines a paragraph.
+
+
+FEATURES OF HTML
+It is a very easy and simple language.
+It is platform-independent, as it can be displayed on any operating system, including Windows, Linux, Macintosh, and others.
+It is a markup language, so it provides a flexible way to design web pages along with the text.
+It supports the creation of forms, allowing user input and interaction, essential for various web applications such as login forms, surveys, and checkout processes.
+Html is a case insensitive language <h1> and <H1> tag are same.
