@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<h3>Internal Link And External Link Example</h3>
+<body>
+ //internal link
+ <p><a href="html_contribute.asp/">cwh Contribute
+</a> It is a link to the contribute page on cwg' website.</p>
+ //external link
+ <p><a href="https://www.cwh">cwh
+ </a> It is a link to the cwh website on the World Wide Web.</p>
+ </body>
+</html>
