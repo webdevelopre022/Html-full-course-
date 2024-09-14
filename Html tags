@@ -1,0 +1,38 @@
+Example of Html Tags
+We can add element inside the body tag to define the page layout .
+
+HTML Element
+Everything from starting to the ending tag
+
+<body>
+content
+</body>
+
+
+The Heading Tag
+This tag is used to make heading from most important to least important .
+We should not use Html headings to make text ,thick or bold.
+
+Example:- <h1>,<h2>,<h3>,<h4>,<h5>,<h6>
+
+
+
+Bold,Italic or underline tags
+<b> This is Bold </b>
+<i> This is  italic  </i>
+<u> This is underline </u>
+
+
+Pre tag
+Html always ignores extra spaces and new lines .
+In order to display a pice of text as is , we use pre tag
+
+<pre>
+This is written 
+using pre 
+tag
+</pre>
+
+
+Big and small tag
+we can make the text a bit larger and a bit smaller using big and small tags respectively.
