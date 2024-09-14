@@ -1,0 +1,350 @@
+Semantics
+ 
+
+HTML tags are classified in two types. 
+ 
+
+Semantic
+Non-Semantic
+Semantic Elements: Semantic elements have meaningful names which tells about type of content. For example header, footer, table, … etc. HTML5 introduces many semantic elements as mentioned below which make the code easier to write and understand for the developer as well as instructs the browser on how to treat them. 
+
+article
+aside
+details
+figcaption
+figure
+footer
+header
+main
+mark
+nav
+section
+
+Article: It contains independent content which doesnt require any other context. 
+Example: Blog Post, Newspaper Article etc.
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Article Tag</title>
+      <style>
+         h1 {
+         Color:#006400;
+         font-size:50px;
+         Text-align:left;
+         }
+         p {
+         font-size:25px;
+         text-align:left;
+         margin-top:-40px;
+         }
+      </style>
+   </head>
+   <body>
+      <article>
+         <h1>webdeveloper022</h1>
+ <p>A Computer Science Portal for Geeks</p>
+       </article>
+   </body>
+</html>
+
+
+Aside: It is used to place content in a sidebar i.e. aside the existing content. It is related to surrounding content.
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Aside Tag</title>
+      <style>
+         h4 {
+         Color:#006400;
+         font-size:50px;
+         Text-align:none;
+         margin-bottom:0px;
+         }
+         p {
+         font-size:25px;
+         text-align:none;
+         margin-top:0px;
+         }
+      </style>
+   </head>
+   <body>
+ <p>webdeveloper022 is a Computer Science Portal</p>
+       <aside>
+         <h4>webdeveloper022</h4>
+ <p>GeeksforGeeks is a computer Science platform
+            where you can learn good programming.
+         </p>
+       </aside>
+   </body>
+</html>
+
+Details and Summary: “details” defines additional details that the user can hide or view. “summary” defines a visible heading for a “details” element.
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Detail and summary Tag</title>
+      <style>
+         .GFG {
+         Color:#006400;
+         font-size:50px;
+         Text-align:none;
+         margin-bottom:0px;
+         }
+         p {
+         font-size:25px;
+         text-align:none;
+         margin-top:0px;
+         }
+      </style>
+   </head>
+   <body>
+      <details>
+         <summary class="web">web development</summary>
+ <p>webdeveloper022 is a Computer Science portal
+            where you can learn good programming.
+         </p>
+       </details>
+   </body>
+</html>
+
+
+
+Figure and Figcaption: These are used to add an image in a web page with small description.
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Figcaption Tag</title>
+      <style>
+         h2 {
+         Color:#006400;
+         font-size:50px;
+         Text-align:none;
+         margin-bottom:0px;
+         }
+         p {
+         font-size:25px;
+         text-align:none;
+         margin-top:0px;
+         }
+      </style>
+   </head>
+   <body>
+      <h2>webdevloper022</h2>
+      <figure>
+         <img src="4.jpg" alt="Rahul" style="width:20%">
+         <figcaption>Rahul Logo</figcaption>
+      </figure>
+   </body>
+</html>
+
+
+
+Header: As the name suggests, it is for the header of a section introductory of a page. There can be multiple headers on a page. 
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Header Tag</title>
+      <style>
+         h1, h3 {
+         Color:#006400;
+         Text-align:left;
+         margin-bottom:0px;
+         }
+         p {
+         font-size:25px;
+         text-align:left;
+         margin-top:0px;
+         }
+      </style>
+   </head>
+   <body>
+      <article>
+         <header>
+            <h1>webdeveloper022</h1>
+            <h3>webdeveloper022</h3>
+ <p>A computer Science portal</p>
+          </header>
+      </article>
+   </body>
+</html>
+
+
+
+Footer: Footer located at the bottom of any article or document, they can contain contact details, copyright information etc. There can be multiple footers on a page.
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>footer Tag</title>
+      <style>
+         p {
+         font-size:25px;
+         text-align:left;
+         margin-top:0px;
+         }
+      </style>
+   </head>
+   <body>
+      <footer>
+ <p>Posted by: GeeksforGeeks</p>
+ <p>Contact: <a href="https://www.google.co.">
+            Google.com</a>.
+         </p>
+       </footer>
+   </body>
+</html>
+
+
+
+Main: It defines the main content of the document. The content inside main tag should be unique.
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>main Tag</title>
+      <style>
+         h1 {
+         color:#006400;
+         }
+         p {
+         font-size:25px;
+         text-align:none;
+         margin-top:0px;
+         }
+      </style>
+   </head>
+   <body>
+      <main>
+         <h1>Important Residences</h1>
+ <p>A few of them are Rashtrapati Bhavan, White House etc</p>
+          <article>
+            <h1>Rashtrapati Bhavan</h1>
+ <p>It is the home of the President of India.</p>
+          </article>
+         <article>
+            <h1>The White House</h1>
+ <p>It is the home of the President of United
+               States of America.
+            </p>
+          </article>
+      </main>
+   </body>
+</html>
+
+
+
+
+Section: A page can be split into sections like Introduction, Contact Information, Details etc and each of these sections can be in a different section tag.
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>section Tag</title>
+      <style>
+         h1 {
+         color:#006400;
+         }
+         p {
+         font-size:25px;
+         text-align:none;
+         margin-top:0px;
+         }
+      </style>
+   </head>
+   <body>
+      <section>
+         <h1>Data Structure</h1>
+ <p>Data Structure is a data organization and
+            storage format that enables efficient access
+            and modification.
+         </p>
+       </section>
+      <section>
+         <h1>Algorithm</h1>
+ <p>A process or set of rules to be followed
+            in calculations or other problem-solving
+            operations, especially by a computer.
+         </p>
+       </section>
+   </body>
+</html>
+
+
+
+
+
+nav: It is used to define a set of navigation links in the form of navigation bar or nav menu.
+
+html
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>nav Tag</title>
+      <style>
+         h1 {
+         color:#006400;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>Navigation Bar</h1>
+      <nav>
+         <a href="/home/">Home</a> |
+         <a href="/about-us/">About Us</a> |
+         <a href="/data-structure/">Data Structure</a> |
+         <a href="/operating-system/">Operating System</a>
+      </nav>
+   </body>
+</html>
+
+
+
+Mark: It is used to highlight the text.
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>mark Tag</title>
+      <style>
+         h1 {
+         color:#006400;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>mark tag</h1>
+ <p>webdeveloper022is a <mark>Computer Science</mark> portal</p>
+    </body>
+</html>
+
+
+Non-Semantic Elements: Tags like div, span fall under the Non- Semantic categories as their names don’t tell anything about what kind of content is present inside them.
+div It is a block level element or division of a section. It is used as a container.
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>div Tag</title>
+      <style>
+         .GFG {
+         color:#006400;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>div Tag</h1>
+      <div class="GFG">
+         <h1>GeeksforGeeks</h1>
+ <p>webdeveloper022 is a Computer Science portal</p>
+       </div>
+   </body>
+</html>
+
+
+
