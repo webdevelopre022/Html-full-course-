@@ -1,0 +1,139 @@
+Block, Inline and Inline-Block Elements
+In this article, we will know the HTML Block element & Inline element, along with understanding the implementation through the example. Every HTML documents that render the web content, will depend on the element type i.e, block or inline which are default display values. We will understand both these concepts through the examples.
+
+Example: This example illustrates the use of the block-level element & inline element
+
+
+<!DOCTYPE html>
+<html>
+ <body>
+    <div>webdeveloper 022</div>
+    Checkout the webdeveloper
+    <a href="https://www.google.co
+/"
+       alt="google">
+      official</a> website for the articles on various courses.
+</body>
+ </html>
+
+
+Block Level Elements: A block-level element always starts on a new line and stretches out to the left and right as far as it can i.e, it occupies the whole horizontal space of its parent element & the height is equal to the content’s height. 
+
+Supported tags:
+
+HTML <address> Tag
+HTML <blockquote> Tag
+HTML <dd> Tag
+HTML <Div> Tag
+HTML <dl> Tag 
+HTML <dt> Tag
+HTML <canvas> Tag
+HTML <form> Tag
+HTML <Heading> Tag
+HTML <hr> Tag
+HTML <li> Tag
+HTML <main> Tag
+HTML <nav> Tag
+HTML <noscript> Tag
+HTML <ol> Tag
+HTML <pre> Tag
+HTML <section> Tag
+HTML <tfoot> Tag
+HTML <ul> Tag
+HTML Tables
+HTML Paragraphs
+HTML5 <Video> Tag
+HTML5 <aside> Tag
+HTML5 <article> Tag
+HTML5 <figcaption> Tag
+HTML5 <fieldset> Tag
+HTML5 <figure> Tag
+HTML5 <footer> Tag
+HTML 5 <header> Tag
+div element: The <div> element is used as a container for other HTML elements. It has no required attributes. Style, class, and id are the commonly used attributes.
+
+Syntax:
+
+<div>rahul</div>
+Example: Below code illustrates the implementation of <div> tag. 
+
+<!DOCTYPE html>
+<html>
+<title>Block-level Element</title>
+ <body>
+    <div>
+        <h1>webdeveloper022</h1>
+        <h3>webdeveloper022 is a science portal for geeks.</h3>
+        <h3>
+          You can give reviews as well as
+          contribute posts on this portal.
+        </h3>
+    </div>
+</body>
+ </html>
+
+
+Inline Elements: An inline element is the opposite of the block-level element. It does not start on a new line and takes up only the necessary width ie., it only occupies the space bounded by the tags defining the HTML element, instead of breaking the flow of the content. 
+
+Supported tags:
+
+HTML <br> Tag
+HTML <button> Tag
+HTML <time> Tag
+HTML <tt> Tag
+HTML <var> Tag
+HTML <a> Tag
+HTML <abbr> Tag
+HTML <acronym> Tag
+HTML <b> Tag
+HTML <cite> Tag
+HTML <code> Tag
+HTML <dfn> Tag
+HTML <em> Tag
+HTML <i> Tag
+HTML <output> Tag
+HTML <q> Tag 
+HTML <samp> Tag
+HTML <script> Tag
+HTML <select> Tag
+HTML <small> Tag
+HTML <span> Tag
+HTML <strong> Tag
+HTML <sub> Tag
+HTML <sup> Tag
+HTML <textarea> tag
+HTML <bdo> Tag
+HTML <big> Tag
+HTML <img> Tag
+HTML <input> Tag
+HTML <kbd> Tag
+HTML <label> Tag
+HTML <map> Tag
+HTML <Object> tag
+span element: The <span> tag is used as a container for text. It has no required attributes. Style, class, and id are the commonly used attributes.
+
+Syntax: 
+
+<span>Rahul</span>
+Example: Below code illustrates the implementation of <span> tag. 
+
+<!DOCTYPE html>
+<html>
+ <head>
+    <style>
+    body {
+        text-align: center;
+    }
+     h1 {
+        color: green;
+    }
+    </style>
+</head>
+<body>
+    <!-- Span element. -->
+    <h1>Rahul
+      <span style="color: red"> kumar</span>
+      singh
+    </h1>
+</body>
+ </html>
