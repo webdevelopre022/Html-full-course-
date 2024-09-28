@@ -1,0 +1,18 @@
+
+
+
+Exampl 
+<html >
+<head>
+    <title>inline style attribute</title>
+</head>
+<body>
+    <ol>
+        <li value="51">English</li>
+        <li>Hindi</li>
+        <li>Maths</li>
+        <li>Science</li>
+        <li>social science</li>
+    </ol>
+</body>
+</html>
