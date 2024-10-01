@@ -1,0 +1,383 @@
+Forms | Fork HTML
+HTML stands for HyperText Markup Language. It is used to design web pages using a markup language. It is a combination of Hypertext and Markup language. HTML uses predefined tags and elements that tell the browser how to properly display the content on the screen. And form is one of them. So, in this article, we will learn what is exactly HTML form what are the elements of forms and how can we use HTML form in our webpage. 
+
+
+
+What is HTML <form>?
+
+<form> is a HTML element to collect input data with containing interactive controls. It provides facilities to input text, number, values, email, password, and control fields such as checkboxes, radio buttons, submits buttons, etc. or in other words, form is a container that contains input elements, like text, email, number, radio buttons, checkboxes, submit buttons, etc. Forms are generally used when you want to collect data from the user. For example, a user wants to buy a bag online, so he/she has to first enter their shipping address in the address form and then add their payment detail in the payment form to place an order.
+
+
+
+Forms are created by placing input fields within paragraphs, preformatted text, lists and tables. This gives considerable flexibility in designing the layout of forms. 
+
+
+
+Syntax:
+
+
+<form>
+  <!--form elements-->
+</form>
+
+
+Form elements
+
+These are the following HTML <form> elements:
+
+
+<label>: It defines label for <form> elements.
+<input>: It is used to get input data from the form in various type such as text, password, email, etc by changing it's type.
+<button>: It defines a clickable button to control other elements or execute a functionality.
+<select>: It is used to create a drop-down list.
+<textarea>: It is used to get input long text content.
+<fieldset>: It is used to draws a box around other form elements and group the related data.
+<legend>: It defines caption for fieldset elements.
+<datalist>: It is used to specify pre-defined list options for input controls.
+<output>: It display the output of performed calculations.
+<option>: It is used to define option in drop-down list.
+<optgroup>: It used to defines group related options in a drop down list.
+
+
+Textbox in HTML Form
+
+In an HTML form, we use <input> tag by assigning type attribute value to text to input single line input. To define type attribute see the below syntax. 
+
+
+
+Tip: The default value of the type attribute is "text".
+
+
+
+Syntax:
+
+
+<input type="text" />
+
+
+Or shorthand for "text" type:
+
+
+<input />
+
+
+Password in an HTML Form
+
+We can change type value text to password to get the input password 
+
+
+
+Example:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+</head>
+<body>
+  <h2>Welcome To GFG</h2>
+  <form>
+ <p>
+      <label>Username : <input type="text" /></label>
+    </p>
+ <p>
+      <label>Password : <input type="password" /></label>
+    </p>
+ <p>
+       <button type="submit">Submit</button>
+    </p>
+   </form>
+</body>
+</html>
+
+Output:
+
+
+
+
+In the above example, we can see the difference between type text and type password. The username will be visible but the password will not be visible. 
+
+
+
+Radio Button in an HTML Form
+
+To create a radio button, we use the <input> tag following by radio type to provide users to choose a limited number of choices.
+
+
+
+ Syntax:
+
+
+<input type="radio" name="radio_button_name" value="radio_button_value" />
+
+
+Note: The radio button must have shared the same name to be treated as a group. 
+
+
+Note: The value attribute defines the unique value associated with each radio button. The value is not shown to the user, but is the value that is sent to the server on "submit" to identify which radio button that was selected.
+
+
+
+Example:
+
+
+In this example, we will create a radio button to choose your gender. 
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+</head>
+<body>
+  <h2>Select your gender</h2>
+  <form>
+    <label>Male<input type="radio" name="gender" value="male" /></label>
+    <label>Female<input type="radio" name="gender" value="female" /></label>
+  </form>
+</body>
+</html>
+
+Output:
+
+
+
+Checkbox in an HTML Form
+
+
+To create a checkbox in an HTML form, we use the <input> tag following by the input type checkbox. It is a square box to ticked to activate this. It used to choose more options at a time. 
+
+
+
+Syntax:
+
+
+<input type="checkbox" name="select_box_name" value="select_box_value" />
+
+Note: the "name" and "value" attributes are used to send the checkbox data to the server.
+
+
+
+Example:
+
+
+In this example, we use checkboxes to select language. 
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+</head>
+<body>
+  <h2>Choose Language</h2>
+  <form>
+    <ul style="list-style-type:none;">
+      <li><input type="checkbox" name="language" value="hindi" />Hindi</li>
+      <li><input type="checkbox" name="language" value="english" />English</li>
+      <li><input type="checkbox" name="language" value="sanskrite" />Sanskrit</li>
+    </ul>
+   </form>
+</body>
+</html>
+
+Output:
+
+
+
+Combobox in an HTML Form
+
+
+Combobox is used to create a drop-down menu in your form which contains multiple options. So, to create an Combobox in an HTML form, we use the <select> tag with <option> tag. It is also known as a drop-down menu. 
+
+
+
+Syntax:
+
+
+<select name="select_box_name">
+  <option value="value1">option1</option>
+  <option value="value2">option2</option>
+  <option value="value3">option3</option>
+</select>
+
+
+Note: the "name" and "value" attributes are used to send the combobox data to the server.
+
+
+
+Example:
+
+
+In this example, we will create a dropdown menu to select Nationality. 
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+</head>
+<body>
+  <h2>Select Your Nationality</h2>
+  <form>
+   <select name="language">
+     <option value="indian">Indian</option>
+     <option value="nepali">Nepali</option>
+     <option value="others">Others</option>
+   </select>
+  </form>
+</body>
+</html>
+
+Output:
+
+
+
+Submit button in an HTML Form
+
+
+In the HTML form, submit button is used to submit the details of the form to the form handler. A form handler is a file on the server with a script that is used to process input data.  
+
+
+
+Syntax:
+
+
+ <button type="submit">submit</button>
+
+
+Example: 
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+</head>
+<body>
+  <h2>Welcome To GeeksforGeeks</h2>
+  <form>
+ <p>
+      <label>Username: <input type="text" /></label>
+ <p>
+      <label>Password: <input type="password" /></label>
+    </p>
+ <p>
+      <button type="submit">submit</button>
+    </p>
+   </form>
+</body>
+</html>
+
+Output:
+ 
+
+
+
+TextArea in an HTML Form
+
+
+In the HTML form, a text area is used to add comments or reviews, or addresses in the form. Or in other words, the text area is a multi-line text input control. It contains an unlimited number of characters, and the text renders in a fixed-width font and the size of the text area is given by the <rows> and <cols> attributes. To create a text area in the form use the <textarea> tag.
+
+
+
+Syntax:
+
+
+<textarea name="textarea_name">content</textarea>
+
+Note: the name attribute is used to reference the textarea data after it is send to a server.
+
+
+
+Example:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+</head>
+<body>
+  <h2>Welcome To GeeksforGeeks</h2>
+  <form>
+    <textarea name="welcomeMessage" rows="3" cols="40">GeeksforGeeks is a online portal</textarea>
+  </form>
+</body>
+</html>
+
+Output:
+
+
+
+Create an HTML form to input the basic details of a student
+
+
+In this example, we will take output such as Salutation, First Name, Last Name, Email, Phone, Gender, Date of Birth, and Address. 
+
+
+
+To create this form, we need to use the <legend> tag to defined caption, <select> tag for Salutation, <option> tag to define elements of Salutation, <input> tag for First Name, Last Name, Email, Phone, Date of Birth by changing <input> tag type attribute, <textarea> to input address, radio button for gender. After defining all these stuffs, we will use a <button> to submit this form data. 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GfG</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Personal Details</legend>
+ <p>
+        <label>
+          Salutation
+          <br />
+          <select name="salutation">
+            <option>--None--</option>
+            <option>Mr.</option>
+            <option>Ms.</option>
+            <option>Mrs.</option>
+            <option>Dr.</option>
+            <option>Prof.</option>
+          </select>
+        </label>
+      </p>
+ <p>
+        <label>First name: <input name="firstName" /></label>
+      </p>
+ <p>
+        <label>Last name: <input name="lastName" /></label>
+      </p>
+ <p>
+        Gender :
+        <label><input type="radio" name="gender" value="male" /> Male</label>
+        <label><input type="radio" name="gender" value="female" /> Female</label>
+      </p>
+ <p>
+        <label>Email:<input type="email" name="email" /></label>
+      </p>
+ <p>
+        <label>Date of Birth:<input type="date" name="birthDate"></label>
+      </p>
+ <p>
+        <label>
+          Address :
+          <br />
+          <textarea name="address" cols="30" rows="3"></textarea>
+        </label>
+      </p>
+ <p>
+        <button type="submit">Submit</button>
+      </p>
+      </fieldset>
+  </form>
+</body>
+</html>
+
+Output:
+
+
