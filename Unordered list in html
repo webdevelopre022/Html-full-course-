@@ -1,0 +1,85 @@
+Unordered Lists | Fork HTML
+Unordered Lists
+
+ An unordered list defines a list of items in which the order of the items does not. Or in other words, unordered list tag is used to create a unordered list. It is also known as bulleted list. In unordered list each element in the list is defined using <li> tag. 
+
+
+Syntax:
+
+
+<ul> content </ul> 
+
+
+
+Attributes of unordered list:
+
+
+List-style-type: This attribute is used to specifies the bullet style that will be used as the list item marker. The value of this attribute is None/disc(default)/circle/square.
+
+
+Syntax:
+
+
+<ul style="list-style-type:square|disc|none;">
+
+
+
+Example 1:
+
+
+<html>
+<head>
+     <title>unordered list</title>
+</head>
+<body>
+    <h1>Example of unordered list in default</h1>
+    <ul>
+        <li>Sachin</li>
+        <li>Manoj</li>
+        <li>Parth</li>
+        <li>sujay</li>
+        <li>Amraditya</li>
+    </ul>
+</body>
+</html>
+
+
+Output:
+
+
+
+
+Example 2:
+
+
+<html>
+<head>
+     <title>unordered list</title>
+</head>
+<body>
+    <h2>Example of unordered list in circle</h2>
+    <ul style="list-style-type:circle;">
+        <li>sachin</li>
+        <li>manoj</li>
+    </ul>
+    <h2>Example of unordered list in disk</h2>
+    <ul style="list-style-type:disc;">
+        <li>Priya</li>
+        <li>Mohit</li>
+    </ul>
+    <h2>Example of unordered list in square</h2>
+    <ul style="list-style-type:square;">
+        <li>Pinky</li>
+        <li>Punam</li>
+    </ul>
+    <h2>Example of unordered list in none</h2>
+    <ul style="list-style-type:none;">
+        <li>Mukti</li>
+        <li>Dhama</li>
+    </ul>
+</body>
+</html>
+
+Output:
+
+
