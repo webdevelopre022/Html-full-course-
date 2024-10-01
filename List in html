@@ -1,0 +1,78 @@
+Lists in HTML | Fork HTML
+
+Lists are used to store data or information in web pages in ordered or unordered form. HTML supports several types of list elements that can be included in the <BODY>tag of the document. These elements may also be nested, i.e, the onset of elements can be embedded within another. There are three types of list are available in HTML:
+
+
+Unordered List
+Ordered List
+Description list
+
+Now before moving to the list first of all we understands what is a list item tag.
+
+
+
+List Item tag
+
+List item tag is used to define each item of a list. Once we define list items with the <li> tag, the list appears in Web browsers in the bulleted form (by default). It is used inside both ordered and unordered list.
+
+
+Syntax:
+
+
+<li> content </li>
+
+
+
+Attribute of item tag:
+
+
+value: The value attribute of the<li> tag is used to specify the value of the first item. The value must be a number and this can be used  in case of ordered list only. The subsequent list items will increment the value form the number.
+
+
+Syntax:
+
+
+
+<li  value = number>
+
+
+
+
+Example 1:
+
+
+<html >
+<head>
+    <title>inline style attribute</title>
+</head>
+<body>
+    <li>sachin</li>
+    <li>sujay</li>
+    <li>Amraditya</li>
+    <li>shivam</li>
+    <li>Parth</li>
+</body>
+</html>
+
+
+
+
+
+
+Example 2:
+
+
+<html >
+<head>
+    <title>inline style attribute</title>
+</head>
+<body>
+    <ol>
+        <li value="51">English</li>
+        <li>Hindi</li>
+        <li>Maths</li>
+        <li>Science</li>
+        <li>social science</li>
+    </ol>
+</body>
+</html>
