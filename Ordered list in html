@@ -1,0 +1,70 @@
+Ordered Lists | Fork HTML
+Ordered Lists
+
+
+An ordered list defines a list of items in which the order of the items are matters. An ordered list is also called a number list. The ordering is given by a numbering scheme, using Arabic numbers, letters, roman numerals. Or in other words, ordered list  tag is used to create ordered list.
+
+
+
+Syntax:
+
+
+
+<ol> content </ol>
+
+
+
+
+
+Attributes of ordered list:
+
+
+reversed: This attribute is used to specifies that the ordered of the list should be reversed.Syntax:
+<ol reversed>
+
+start: This attribute is used to specifies the start value of the list.Syntax:
+<ol start = "number">
+
+type: This attribute is used to specifies the type of list item maker. The value of this attribute is decimal(Default)/lower-roman/upper roman/lower-alpha/upper alphaSyntax:
+<ol type = "a">
+
+Value assigned to type attribute can be 1 or A or i or I (where i represents lowercase roman numbers and I represents for uppercase roman numbers). Example 1:
+<html>
+<head>
+     <title>ordered list</title>
+</head>
+<body>
+    <h1>Example of ordered list in default</h1>
+    <ol >
+        <li>Sachin</li>
+        <li>Manoj</li>
+        <li>Parth</li>
+        <li>sujay</li>
+        <li>Amraditya</li>
+    </ol>
+</body>
+</html>
+Output:Example 2:
+<html>
+<head>
+     <title>ordered list</title>
+</head>
+<body>
+    <h1>Example of ordered list whose type = "A"</h1>
+    <ol type="A">
+        <li>Sachin</li>
+        <li>Manoj</li>
+     </ol>
+    <h1>Example of reverse ordered list</h1>
+    <ol reversed>
+        <li>Parth</li>
+        <li>sujay</li>
+    </ol>
+    <h1>Example of ordered list start from 10</h1>
+    <ol start = "10">
+        <li>Pushpa</li>
+        <li>Purvi</li>
+    </ol>
+ </body>
+</html>
+Output:
