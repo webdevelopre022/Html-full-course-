@@ -1,0 +1,38 @@
+Description Lists | Fork HTML
+Description List
+
+Description list is a list in which each term contain its description. This tag contain <dt> and <dd> tag.
+
+
+<dt></dt>: This tag is used to define the name or term
+<dd><dd>: this tag is used to describe the term.
+
+Syntax:
+
+
+<dl> content </dl>
+
+
+
+Example:
+
+
+<html>
+<head>
+     <title>Description list</title>
+</head>
+<body>
+    <h2>Example of description list</h2>
+    <dl>
+        <dt>Python:</dt>
+        <dd>It is a programming language</dd>
+        <dt>C++:</dt>
+        <dd>It is also a programming language</dd>
+    </dl>
+ </body>
+</html>
+
+
+Output:
+
+
