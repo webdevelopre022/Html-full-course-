@@ -1,0 +1,94 @@
+Labels Fieldsets
+
+The <fieldset> tag in HTML5 is used to make a group of related elements in the form, and it creates the box over the elements. The <fieldset> tag is new in HTML5. The <legend> tag is used to define the title for the child’s contents. The legend elements are the parent element. This tag is used to define the caption for the <fieldset> element.
+
+Syntax:
+
+<fieldset>Contents</fieldset>
+Attribute:
+
+disabled: It is used to specify that the group of related form elements is disabled. A disabled fieldset is un-clickable and unusable.
+form: It is used to specify the one or more forms that the <fieldset> element belongs to.
+name: It is used to specify the name for the Fieldset element.
+autocomplete: It is used to specify that the fieldset has autocompleted on or off value.
+Example: This simple example illustrates the use of the <fieldset> tag in order to make a group of related elements in the HTML Form.
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>GeeksforGeeks</h1>
+    <h2>HTML <fieldset> Tag</h2>
+    <form>
+        <div class="title">
+            Employee Personal Details:
+        </div>
+         
+        <!--HTML fieldset tag starts here-->
+        <fieldset>
+            <legend>Details:</legend>
+            Name:<input type="text">
+            Emp_Id:<input type="text">
+            Designation:<input type="text">       
+        </fieldset>
+        <!--HTML fieldset tag ends here-->
+    </form>
+</body>
+</html>
+Output:
+
+
+HTML <fieldset> tag
+Example: In this example, we will know the use of <fieldset> tag to make the group of related elements.
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>GeeksforGeeks</h1>
+    <h2>HTML <fieldset> Tag</h2>
+    <form>
+        <div class="title">
+          Suggest article for video:
+        </div>
+       
+        <!--HTML fieldset tag starts here-->
+        <fieldset>
+            <legend>JAVA:</legend>
+            Title:<input type="text"><br>
+            Link:<input type="text"><br>
+            User ID:<input type="text">
+        </fieldset>
+        <!--HTML fieldset tag ends here-->
+ 
+        <br>
+       
+        <!--HTML fieldset tag starts here-->
+        <fieldset>
+            <legend>PHP:</legend>
+            Title:<input type="text"><br>
+            Link:<input type="text"><br>
+            User ID:<input type="text">
+        </fieldset>
+        <!--HTML fieldset tag ends here-->
+    </form>
+</body>
+</html>
+ Output:
+
+
+<fieldset> tag to group the related element 
+Supported Browsers:
+
+Google Chrome 
+Internet Explorer 
+Microsoft Edge 12.0 and above
+Firefox 
+Safari 
+Opera 
